@@ -1,0 +1,10 @@
+
+*.class
+.idea/workspace.xml
+.idea/misc.xml
+.idea/modules.xml
+out/*
+.DS_Store
+.idea/project-template.xml
+.idea/libraries/jgoodies.xml
+.idea/description.html

@@ -1,0 +1,46 @@
+Version 1.2.3 - 11/13/05
+
+- new XJGraphics2DPS class to generate EPS file from any Swing drawing
+- change cursor shape when over an XJURLLabel
+- fixed a bug where XJApplication would return the MacOS special frame in method getActiveContainer()
+
+Version 1.2.2 - 10/22/05
+
+- XJDialog has a new method to prevent the dialog to be closed when using the OK button
+- XJUpdateManagerDialog is now centered and present the text starting at the top with font Courier
+
+Version 1.2.1 - 06/01/05
+
+- window can be auxiliary (in order in Linux/Windows to close automatically the application if all "main" windows
+  are closed)
+- fixed a bug where the application would quit if the open last document failed (XJApplication has now a flag
+  when starting up)
+  
+Version 1.2 - 06/01/05
+
+- renamed package to edu.usfca.xj
+- XJApplication: can now schedule timer
+- XJApplication: now closes the first created document if it is untouched and another document is opened
+- XJApplication: use run() to correctly run the application in the Swing thread
+- new XJUpdateManager to handle simple update
+- XJDialog: a parent window can now be specified in the constructor
+- SLinkArc: fixed a bug where the arrow would be displayed with the wrong orientation (at 180 deg)
+- XJDocument: fixed a bug where saving a plain/text new document would generate a null-pointer exception.
+              Forgot to set the title of the data in writeDocument().
+- XJDataPlainText: improved performance when reading string from file
+- XJDataXML: new data format using XMLEncoder/XMLDecoder
+- XJMenuItem: don't set the default key modifiers when providing custom modifiers (use getDefaultKeyModifier if needed)
+- XJMenu: can now insert a separator after an item
+- XJAlert: custom dialog is now MacOS X compliant (reverse button order) and it is possible to specify the default button
+- XJAlert: new convenient method for alert with two or three buttons
+
+Version 1.1 - 12/18/04
+
+- XJDocument/XJData: new class XJDataPlainText and new method to read different kind of file (InputStream, ObjectInpuStream,
+  plain text)
+- when only one document type exists, it is automatically selected in the Open File dialog
+- remove dependency to main.Tool in GLink
+
+Version 1.0 - 12/12/04
+
+- first release

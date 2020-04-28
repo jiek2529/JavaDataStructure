@@ -5,9 +5,9 @@
 
 启动方式：Main-Class: edu.usfa.ds.DSApplication
 
-![alt 算法清单](./algorithms_list.png)
+![alt 算法清单](img/algorithms_list.png)
 
-![alt huffman算法](./huffman_coding.png)
+![alt huffman算法](img/huffman_coding.png)
 
 refer: https://www.cs.usfca.edu/~galles/visualization/java/download.html
 
